@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: floretos
+  description: floretos repos
+spec:
+  type: team
+  profile:
+    displayName: floretos
+    email: flroetos@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  #parent: ops
+  children: []
+  members: [bludot]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bludot
+spec:
+  profile:
+    displayName: James
+    email: admin@floretos.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [floretos]
