@@ -11,7 +11,7 @@ spec:
     picture: https://example.com/groups/bu-infrastructure.jpeg
   #parent: ops
   children: []
-  members: [bludot]
+  #members: [bludot]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
